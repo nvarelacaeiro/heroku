@@ -43,7 +43,7 @@ const listOne = async(req, res, next) => {
 //register
 const register = async(req, res, next) => {
     const cleanBody = matchedData(req)
-    // const image = `${public_url}/${req.file.filename}`
+    const image = public_url + req.file.filename
     // console.log(image)
     const password = await encrypt(req.body.password)
     const dbResponse = await addNewUser({...cleanBody, password})
