@@ -58,4 +58,4 @@ server.use((error, req, res, next) => {
 })
 
 
-//clase 10 01:20:20 trabado por que no puedo crear mi pag en heroku
+//clase 10 02:08:33 
