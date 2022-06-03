@@ -58,4 +58,4 @@ server.use((error, req, res, next) => {
 })
 
 
-//clase 10 02:08:33 
+//clase 10 02:14:52 VER DE PONER LA CARPETA 10 DEL PROFE PORQ ESTÁ AGREGADO LAS IMAGES COSA QUE YO NO
